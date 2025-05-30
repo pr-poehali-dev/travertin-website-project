@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Icon from "@/components/ui/icon";
 
 const ContactSection = () => {
   return (
@@ -19,7 +20,7 @@ const ContactSection = () => {
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-                    <div className="w-6 h-6 bg-white rounded opacity-90"></div>
+                    <Icon name="Phone" size={24} className="text-white" />
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Телефоны:</p>
@@ -30,7 +31,7 @@ const ContactSection = () => {
 
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-                    <div className="w-6 h-6 bg-white rounded opacity-90"></div>
+                    <Icon name="Mail" size={24} className="text-white" />
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Email:</p>
@@ -42,7 +43,7 @@ const ContactSection = () => {
 
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-                    <div className="w-6 h-6 bg-white rounded opacity-90"></div>
+                    <Icon name="Building2" size={24} className="text-white" />
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Адрес:</p>
