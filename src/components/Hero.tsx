@@ -17,8 +17,8 @@ const Hero = () => {
           <CardContent className="p-8">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center group hover:scale-105 transition-transform duration-300">
-                <div className="w-16 h-16 bg-travertine-200 rounded-full flex items-center justify-center mb-4 mx-auto group-hover:bg-primary transition-colors">
-                  <span className="text-2xl">🚚</span>
+                <div className="w-16 h-16 bg-travertine-200 rounded-lg flex items-center justify-center mb-4 mx-auto group-hover:bg-primary transition-colors">
+                  <div className="w-8 h-8 bg-primary rounded opacity-80"></div>
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2">
                   Прямые поставки
@@ -27,8 +27,8 @@ const Hero = () => {
               </div>
 
               <div className="text-center group hover:scale-105 transition-transform duration-300">
-                <div className="w-16 h-16 bg-travertine-200 rounded-full flex items-center justify-center mb-4 mx-auto group-hover:bg-primary transition-colors">
-                  <span className="text-2xl">🗺️</span>
+                <div className="w-16 h-16 bg-travertine-200 rounded-lg flex items-center justify-center mb-4 mx-auto group-hover:bg-primary transition-colors">
+                  <div className="w-8 h-8 bg-primary rounded opacity-80"></div>
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2">
                   Все регионы России
@@ -39,8 +39,8 @@ const Hero = () => {
               </div>
 
               <div className="text-center group hover:scale-105 transition-transform duration-300">
-                <div className="w-16 h-16 bg-travertine-200 rounded-full flex items-center justify-center mb-4 mx-auto group-hover:bg-primary transition-colors">
-                  <span className="text-2xl">📦</span>
+                <div className="w-16 h-16 bg-travertine-200 rounded-lg flex items-center justify-center mb-4 mx-auto group-hover:bg-primary transition-colors">
+                  <div className="w-8 h-8 bg-primary rounded opacity-80"></div>
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2">
                   Любые объемы
@@ -51,8 +51,8 @@ const Hero = () => {
               </div>
 
               <div className="text-center group hover:scale-105 transition-transform duration-300">
-                <div className="w-16 h-16 bg-travertine-200 rounded-full flex items-center justify-center mb-4 mx-auto group-hover:bg-primary transition-colors">
-                  <span className="text-2xl">💬</span>
+                <div className="w-16 h-16 bg-travertine-200 rounded-lg flex items-center justify-center mb-4 mx-auto group-hover:bg-primary transition-colors">
+                  <div className="w-8 h-8 bg-primary rounded opacity-80"></div>
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2">
                   Бесплатная консультация

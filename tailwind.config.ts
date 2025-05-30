@@ -25,18 +25,20 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         travertine: {
-          50: "#F7F4EE",
-          100: "#E0D5C3",
-          200: "#D8C3A4",
-          300: "#BF9E75",
+          50: "#FAFAF9",
+          100: "#F5F5F4",
+          200: "#E7E5E4",
+          300: "#D6D3D1",
+          400: "#A8A29E",
+          500: "#78716C",
         },
         primary: {
-          DEFAULT: "#BF9E75",
+          DEFAULT: "#78716C",
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#E0D5C3",
-          foreground: "#1a1a1a",
+          DEFAULT: "#F5F5F4",
+          foreground: "#1C1917",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
