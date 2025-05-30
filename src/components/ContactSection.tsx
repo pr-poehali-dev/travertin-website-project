@@ -5,7 +5,7 @@ import Icon from "@/components/ui/icon";
 const ContactSection = () => {
   return (
     <section className="py-16 px-4 bg-travertine-100/30">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <Card className="bg-white shadow-xl border-travertine-200">
           <CardHeader className="text-center pb-6">
             <CardTitle className="text-3xl font-montserrat text-primary">
