@@ -4,7 +4,7 @@ import Icon from "@/components/ui/icon";
 const AdditionalProductsSection = () => {
   return (
     <section className="py-16 px-4 bg-travertine-50">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <Card className="bg-white shadow-lg border-travertine-200">
           <CardHeader className="text-center pb-6">
             <CardTitle className="text-3xl font-montserrat text-primary flex items-center justify-center gap-3">
